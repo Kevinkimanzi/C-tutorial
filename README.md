@@ -14,10 +14,11 @@
 ### Down loading docker compose
 The following command will download the 1.29.2
 
-'''bash
+
+```bash
  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-'''
+```
 Next, set the correct permissions so that the docker-compose command is executable:
-'''
+```
 sudo chmod +x /usr/local/bin/docker-compose
-'''
+```
